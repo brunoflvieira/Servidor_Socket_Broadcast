@@ -7,7 +7,7 @@ public class Principal {
 
     public static void main(String args[]) {
         try {
-            DatagramSocket con = new DatagramSocket(62720); //conexao(porta)
+            DatagramSocket con = new DatagramSocket(4444); //conexao(porta)
             while (true) {
                 byte dado[] = new byte[100]; //Configura o pacote
                 DatagramPacket pacote = new DatagramPacket(dado, dado.length); //Configura o pacote
